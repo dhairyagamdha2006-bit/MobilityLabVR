@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!129 &1
+PlayerSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 28
+  productGUID: 57570f30b22d4b7ba671f71e8a78ea1b
+  AndroidProfiler: 0
+  defaultScreenWidth: 1920
+  defaultScreenHeight: 1080
+  defaultScreenWidthWeb: 1280
+  defaultScreenHeightWeb: 720
+  m_ActiveColorSpace: 1
+  m_StripEngineCode: 1
+  companyName: MobilityLab VR
+  productName: MobilityLab VR
+  applicationIdentifier:
+    Standalone: edu.portfolio.mobilitylabvr
+  bundleVersion: 1.0.0
+  runInBackground: 1
+  captureSingleScreen: 0
+  usePlayerLog: 1
+  resizableWindow: 1
+  visibleInBackground: 1
+  allowFullscreenSwitch: 1
+  fullScreenMode: 3
+  activeInputHandler: 1
+  scriptingBackend:
+    Standalone: 0
+  il2cppCompilerConfiguration: 0
+  apiCompatibilityLevelPerPlatform:
+    Standalone: 6

@@ -1,0 +1,31 @@
+{
+  "name": "MobilityLabVR",
+  "maps": [
+    {
+      "name": "Rider",
+      "id": "73924434-e71f-47fd-9daf-d6159427ef10",
+      "actions": [
+        {"name":"Move","type":"Value","id":"6cae9b97-05bd-4fd6-b479-408e724d36c8","expectedControlType":"Vector2"},
+        {"name":"Look","type":"Value","id":"6d11a6d2-c20b-489d-81d0-53e597f21fd1","expectedControlType":"Vector2"},
+        {"name":"EmergencyBrake","type":"Button","id":"1dc02ca8-5704-42f3-b03d-b290e0cf159b","expectedControlType":"Button"},
+        {"name":"Reset","type":"Button","id":"d5ca73e6-d165-4cb8-bc21-4523405304e1","expectedControlType":"Button"},
+        {"name":"Pause","type":"Button","id":"a6154d95-f923-40ad-899b-6f6e6e6b6290","expectedControlType":"Button"}
+      ],
+      "bindings": [
+        {"name":"WASD","id":"ca1b3e9f-cf86-47d9-99d9-7d1047d193eb","path":"2DVector","action":"Move","isComposite":true},
+        {"name":"up","id":"f2892512-b925-479f-8f42-26f68fc89a6c","path":"<Keyboard>/w","action":"Move","isPartOfComposite":true},
+        {"name":"down","id":"92314f9b-fced-49c6-9c0e-207ba22c36ab","path":"<Keyboard>/s","action":"Move","isPartOfComposite":true},
+        {"name":"left","id":"f4c65df0-24cc-43f4-85c9-08722749255a","path":"<Keyboard>/a","action":"Move","isPartOfComposite":true},
+        {"name":"right","id":"ac20114e-2f40-4284-9e18-873f11395499","path":"<Keyboard>/d","action":"Move","isPartOfComposite":true},
+        {"id":"8919f29b-aa2c-4790-a084-8ca7786afcf3","path":"<XRController>{LeftHand}/primary2DAxis","action":"Move"},
+        {"id":"444ac76c-2df2-412e-b77f-8c9bbf5ca0b1","path":"<Mouse>/delta","action":"Look"},
+        {"id":"45a5d35d-1c30-403c-9f15-310c5d2dbe92","path":"<XRController>{RightHand}/primary2DAxis","action":"Look"},
+        {"id":"48797e84-35e4-4ca5-99ba-e57ad4cc0c50","path":"<Keyboard>/space","action":"EmergencyBrake"},
+        {"id":"4d8f72eb-611f-47f8-b5d5-2c5c924c48ad","path":"<XRController>{RightHand}/triggerPressed","action":"EmergencyBrake"},
+        {"id":"29022f0e-a590-4ba0-803d-351ec3b2e99c","path":"<Keyboard>/r","action":"Reset"},
+        {"id":"df21a642-8314-4dde-b90b-ae859d1c86ac","path":"<Keyboard>/escape","action":"Pause"}
+      ]
+    }
+  ],
+  "controlSchemes": []
+}
