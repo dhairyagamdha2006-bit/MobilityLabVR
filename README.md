@@ -12,10 +12,6 @@ It combines deterministic traffic scenarios, first-person desktop and optional
 OpenXR input, explainable safety-event classification, structured telemetry,
 and an offline Python analysis pipeline.
 
-> **Research question:** How do hazardous traffic conditions affect rider
-> reaction time, minimum hazard distance, and near-miss frequency in a
-> controlled micromobility simulation?
-
 This is a software research prototype. It has **not** been scientifically
 validated with human participants, and its demonstration safety score is not a
 medical, diagnostic, or transportation-safety assessment.
