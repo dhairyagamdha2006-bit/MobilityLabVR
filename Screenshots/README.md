@@ -1,11 +1,5 @@
 # Screenshots
 
-No screenshot is bundled yet because Unity could not be executed in the
-authoring environment. This avoids presenting generated or mocked imagery as
-working software.
-
-After completing `Documentation/Verification.md`, capture genuine 16:9 images:
-
 1. <img width="1470" height="932" alt="Screenshot 2026-10-05 at 12 18 57 am" src="https://github.com/user-attachments/assets/022da244-833e-4384-b3e9-1c215b89fa72" />
 
 2. <img width="1470" height="932" alt="Screenshot 2026-10-05 at 12 20 58 am" src="https://github.com/user-attachments/assets/d6d63b3b-0750-440a-bf30-860471ea33f1" />
